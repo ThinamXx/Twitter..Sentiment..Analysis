@@ -7,7 +7,7 @@
   - Understanding that the process could be done automatically without manually reviewing thousands of tweets and customers reviews by humans.
   - In this Project, I will prepare a Model that will analyze thousands of Twitter tweets to predict people's sentiment.
   
-[Image](https://res.cloudinary.com/dge89aqpc/image/upload/v1598323284/1_ztmvin.jpg)
+![Image](https://res.cloudinary.com/dge89aqpc/image/upload/v1598323284/1_ztmvin.jpg)
 
 ### **Importing the Dependencies**
 
