@@ -9,35 +9,6 @@
   
 ![Image](https://res.cloudinary.com/dge89aqpc/image/upload/v1598323284/1_ztmvin.jpg)
 
-### **Importing the Dependencies**
-
-```javascript
-# Downloading and loading the Libraries and Dependencies
-# !pip install jupyterthemes
-# !pip install WordCloud
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import os
-
-from IPython.display import display
-from jupyterthemes import jtplot
-jtplot.style(theme = "monokai", context = "notebook", ticks = True, grid = False)
-from wordcloud import WordCloud
-
-import warnings
-warnings.filterwarnings("ignore")
-import nltk
-# nltk.download("stopwords")
-from nltk.corpus import stopwords
-
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.model_selection import train_test_split
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.metrics import confusion_matrix, classification_report, accuracy_score
-```
-
 ### **Exploratory Data Analysis**
 - Performed various Data Exploration such as Statistical Exploration, Data Visualization, Imputation, Feature Preprocessing, Count Vectorization, Plotting Word Cloud and so on.
 
